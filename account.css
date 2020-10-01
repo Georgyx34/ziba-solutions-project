@@ -1,0 +1,132 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*--------Navigation--------*/
+#nav-bar
+{
+	position:sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+   
+	height: 50px;
+	padding-left: 30px
+}
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #8933ff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.nav-bar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*------Acoount-Page------*/
+.account-page
+{
+       padding: 50px 0;
+       background-image: url("images/background.jpeg");
+}
+.form-container
+{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.form-container span
+{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn
+{
+    display: inline-block;
+}
+.form-container form
+{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    translation: transform 1s;
+}
+.form input
+{
+    width: 500%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn
+{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#Loginform
+{
+    left: -300px;
+}
+#Registrationform
+{
+   left 0; 
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background:#ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px); 
+    transition: transform 1s;
+}
+
+/*------Footer------*/
+#footer
+{
+    background: #333; 
+    color: #fff;
+    padding: 10px;        
+}

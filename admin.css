@@ -1,0 +1,17 @@
+body{
+    font-size: 19px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr{
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th,td{
+    border: none;
+    height
+}

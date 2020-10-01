@@ -1,0 +1,163 @@
+
+.site-slider{
+    position: relative;
+}
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 1 1rem;
+    opacity: 0;
+    transition:opacity 1s ease ;
+}
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+}
+.right-0{
+    right: 0;
+}
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*--------Navigation--------*/
+#nav-bar
+{
+	position:sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+   
+	height: 50px;
+	padding-left: 30px
+}
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #8933ff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.nav-bar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-----BackgroundImage-----*/
+#Card-img-overlay
+{
+    width:100%
+}
+.card-text
+{
+    font-family: arial narrow;
+    font-size: 200%
+}
+/*------About------*/
+#about us h1
+{
+    text-align: center;
+    color: #000000;
+    padding-top: 50px;
+}
+#about
+{
+    padding-top: 50px;
+    padding-bottom:50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+/*------Services------*/
+
+#services h1
+{
+    text-align: center;
+    color: #000000!important;
+    padding-bottom: 10px;
+}
+
+.card-text
+{
+    color: #17202A;
+}
+.card:hover
+{
+    height: 100%;
+    background: #5DADE2; 
+}
+/*--------slider-------*/
+#why us
+{
+    width:auto 100%
+        
+}
+#why us h1
+{
+    text-align: center;
+    color: #000000;
+    padding-top: 50px;
+}
+.carousel-caption
+{   
+    top: 50%;
+    bottom: initial;
+    transform: translateY(-50%);
+}
+.carousel-caption h5
+{
+  color: #fff;
+  font-size: 42px; 
+}
+
+/*------Customer Review------*/
+#review h1
+{
+    text-align: center;
+    color: #000000!important;
+    padding-bottom: 10px;
+    padding-top: 20px
+}
+
+
+/*------Footer------*/
+#footer
+{
+    background: #333; 
+    color: #fff;
+    padding: 10px;        
+}
